@@ -7,9 +7,6 @@ services:
       - ./schemas:/var/lib/mysql:rw
     environment:
       MYSQL_ROOT_PASSWORD: '1234'
-      MYSQL_DATABASE: 'accesa_app'
-      MYSQL_USER: 'edgar'
-      MYSQL_PASSWORD: '1234'
     ports:
       - 3306:3306
 volumes:
